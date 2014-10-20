@@ -1,0 +1,83 @@
+/* 
+  Localizable.strings
+  VideoShow
+
+  Created by Jerry Chen  on 14-7-16.
+  Copyright (c) 2014年 energy. All rights reserved.
+*/
+"Home" = "Home";
+"Featured" = "Featured";
+"Recent" = "Recent";
+"Advanced Edit" = "Advanced Edit";
+"The Video" = "The Video";
+"Photo Video" = "Photo Video";
+"My Studio" = "My Studio";
+"Close" = "Close";
+"My Draft" = "My Draft";
+"My Video" = "My Video";
+"Drop to Refresh" = "Drop to Refresh";
+"Loading" = "Loading ...";
+"Camera not available" = "Camera not available !";
+"OK" = "OK";
+"Confirm" = "Confirm";
+"Cancel" = "Cancel";
+"Select Clip" = "Select Clip";
+"Back" = "Back";
+"Next" = "Next";
+"Total" = "Total";
+"Done" = "Done";
+"Video Edit" = "Video Edit";
+"Processing" = "Processing ...";
+"Photo Duration" = "Photo Duration";
+"Duration"  = "Duration";
+"Video Clip"  = "Video Clip";
+"Recording" = "Recording";
+"Add Music" = "Add Music";
+"Add music failed" = "Add Music failed !";
+"Setting Music" = "Setting Music";
+"Setting Subtitle" = "Setting Subtitle";
+"Subtitle Position" = "Subtitle Position";
+"Left Top" = "Left Top";
+"Left Bottom" = "Left Bottom";
+"Right Bottom" = "Right Bottom";
+"Right Top" = "Right Top";
+"Middle Top" = "Middle Top";
+"Middle Bottom" = "Middle Bottom";
+"Center" = "Center";
+"Exporting" = "Exporting";
+"Stop Export" = "Stop Export";
+"Export Failed" = "Export Failed";
+"Exit Video Editing" = "Do you want to exit video editing ?";
+"Save to drafts" = "Save to drafts";
+"Share" = "Share";
+"Share To" = "Share To";
+"Saved to My Studio" = "Saved to \"My Studio\"";
+"Draft Saving Failed" = "Draft saving failed !";
+"Confirm to Delete" = "Are you sure to delete ?";
+"Follow us on Instagram" = "Follow us on Instagram";
+"Follow us on Facebook" = "Follow us on Facebook";
+"Follow us on Twitter" = "Follow us on Twitter";
+"Frequently asked questions" = "Frequently asked questions";
+"Setting" = "Setting";
+"File Count Max" = "The number of files has reached the maximum limit ！";
+"Save Video Failed" = "Save video failed！";
+"Select Element First" = "Please select element first ！";
+"Upload Failed" = "Upload failed ！";
+"Upload Success" = "Upload Upload successfully ！";
+"Authorization Failure" = "Authorization failure";
+"Remove YTB Authorization" = "Remove YoutTube authorization information";
+"Remove Success" = "Remove successfully !";
+"Set Facebook Account in Setting" = "Authorization failure. Please reset your facebook account in system setting!";
+"Please install Instagram first" = "Please install Instagram first!";
+"like_loading" = "please...";"no install instagram" = "you do not install instagram,are you install now?";
+"Tips" = "Tips";
+"Load Failed" = "Load Failed!";
+"No Music" = "No Music";
+"iTunes Download" = "You can download music from the iTunes Store";
+"Stop Export Hint" = "Click again to stop the export";
+"Touch Move" = "According to the drag can adjust the order";
+"Big Like" = "wan +";
+"No Artist" = "No Artist";
+"Auth Hint" = "Is requesting authorization, please later...";
+"Version" = "Version";
+

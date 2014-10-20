@@ -1,0 +1,136 @@
+//
+//  AppEvent.h
+//  VideoShow  定义动作事件 用于友盟统计
+//
+//  Created by chengkai.gan on 14-10-15.
+//  Copyright (c) 2014年 energy. All rights reserved.
+//
+
+#ifndef VideoShow_AppEvent_h
+#define VideoShow_AppEvent_h
+
+//   点击“编辑界面导出视频”事件
+#define CLICK_EDITOR_SCREEN_EXPORT @"CLICK_EDITOR_SCREEN_EXPORT"
+//   点击"草稿箱“事件
+#define CLICK_MAINMENU_DRAFTBOX @"CLICK_MAINMENU_DRAFTBOX"
+//   点击“编辑单个视频”事件
+#define CLICK_MAINMENU_EDIT_ONE_VIDEO @"CLICK_MAINMENU_EDIT_ONE_VIDEO"
+//   点击“制作音乐相册”事件
+#define CLICK_MAINMENU_MAKE_VIDEO_MAKE_MUSIC_PHOTOS @"CLICK_MAINMENU_MAKE_VIDEO_MAKE_MUSIC_PHOTOS"
+//	 点击“我的作品”事件
+#define CLICK_MAINMENU_MY_WORKS @"CLICK_MAINMENU_MY_WORKS"
+//	 点击“拍摄录像”事件
+#define CLICK_MAINMENU_RECORD @"CLICK_MAINMENU_RECORD"
+//	 点击”设置“事件
+#define CLICK_MAINMENU_SETTING @"CLICK_MAINMENU_SETTING"
+//	 CPU不兼容
+#define DEVICE_NOT_COMPATIBLE @"DEVICE_NOT_COMPATIBLE"
+//	 导出视频失败文件信息
+#define EXPORT_VIDEO_ERROR @"EXPORT_VIDEO_ERROR"
+//	 导出视频成功
+#define EXPORT_VIDEO_SUCCESS @"EXPORT_VIDEO_SUCCESS"
+//   点击推荐列表
+#define  FEATURED_APP_CLICK @"EXPORT_VIDEO_SUCCESS"
+//	 主界面点击用户反馈菜单
+#define MENU_FEEDBACK @"MENU_FEEDBACK"
+//	 主界面点击关注FACEBOOK菜单
+#define MENU_FOLLOW_ON_FACEBOOK @"MENU_FOLLOW_ON_FACEBOOK"
+//	 主界面点击关注Instagram菜单
+#define MENU_FOLLOW_ON_INSTAGRAM @"MENU_FOLLOW_ON_INSTAGRAM"
+//	 主界面点击关注TWITTER菜单
+#define MENU_FOLLOW_ON_TWITTER @"MENU_FOLLOW_ON_TWITTER"
+// 	 视频、图片绝对路径长度小于50
+#define MUSIC_BELOW_50 @"MUSIC_BELOW_50"
+//	 音乐绝对路径长度(100~200)
+#define MUSIC_BETWEEN_100_200 @"MUSIC_BETWEEN_100_200"
+//	 音乐绝对路径长度(200~256)
+#define MUSIC_BETWEEN_200_256 @"MUSIC_BETWEEN_200_256"
+//	 音乐绝对路径长度(50~100)
+#define MUSIC_BETWEEN_50_100 @"MUSIC_BETWEEN_50_100"
+//	 音乐绝对路径长度大于256
+#define MUSIC_BEYOND_256 @"MUSIC_BEYOND_256"
+//	 SD卡空间不足
+#define NOT_ENOUGHSPACE @"NOT_ENOUGHSPACE"
+//	 进入主页面时检查是否至少有20M空间
+#define NOT_ENOUGHSPACE_BELOW_20M @"NOT_ENOUGHSPACE_BELOW_20M"
+//	 外置SD卡空间不足
+#define NOT_ENOUGHSPACE_EX @"NOT_ENOUGHSPACE_EX"
+// 	 导出视频时长小于等于30秒，大于10S
+#define OUTPUT_DURATION_10S_30S @"OUTPUT_DURATION_10S_30S"
+//	 导出视频时长小于等于60秒，大于30S
+#define OUTPUT_DURATION_30S_60S @"OUTPUT_DURATION_30S_60S"
+//	 导出视频时长大于5分钟
+#define OUTPUT_DURATION_5MIN_BEYOND @"OUTPUT_DURATION_5MIN_BEYOND"
+//	 导出视频时长小于等于5分钟，大于60S
+#define OUTPUT_DURATION_60S_5MIN @"OUTPUT_DURATION_60S_5MIN"
+//	 导出视频时长小于等于10秒
+#define OUTPUT_DURATION_UNDER_10S @"OUTPUT_DURATION_UNDER_10S"
+//	 导出视频使用字体1
+#define OUTPUT_FONT_TYPE_1 @"OUTPUT_FONT_TYPE_1"
+//	 导出视频使用字体10
+#define OUTPUT_FONT_TYPE_10 @"OUTPUT_FONT_TYPE_10"
+//	 导出视频使用字体2
+#define OUTPUT_FONT_TYPE_2 @"OUTPUT_FONT_TYPE_2"
+//	 导出视频使用字体3
+#define OUTPUT_FONT_TYPE_3 @"OUTPUT_FONT_TYPE_3"
+//	 导出视频使用字体4
+#define OUTPUT_FONT_TYPE_4 @"OUTPUT_FONT_TYPE_4"
+//	 导出视频使用字体5
+#define OUTPUT_FONT_TYPE_5 @"OUTPUT_FONT_TYPE_5"
+//	 导出视频使用字体6
+#define OUTPUT_FONT_TYPE_6 @"OUTPUT_FONT_TYPE_6"
+//	 导出视频使用字体7
+#define OUTPUT_FONT_TYPE_7 @"OUTPUT_FONT_TYPE_7"
+//	 导出视频使用字体8
+#define OUTPUT_FONT_TYPE_8 @"OUTPUT_FONT_TYPE_8"
+//	 导出视频使用字体9
+#define OUTPUT_FONT_TYPE_9 @"OUTPUT_FONT_TYPE_9"
+// 	 导出视频添加了背景音乐
+#define OUTPUT_MUSIC_USED @"OUTPUT_MUSIC_USED"
+//	 导出只有一个视频
+#define OUTPUT_ONE_VIDEO_EDIT @"OUTPUT_ONE_VIDEO_EDIT"
+//	 导出只有图片
+#define OUTPUT_PHOTO_MOVIE_ONLY @"OUTPUT_PHOTO_MOVIE_ONLY"
+//	 中断导出视频操作
+#define OUTPUT_STOP_EXPORTING @"OUTPUT_STOP_EXPORTING"
+//	 导出视频有字幕
+#define OUTPUT_SUBTITLE_USED @"OUTPUT_SUBTITLE_USED"
+// 	 导出视频添加了录音
+#define OUTPUT_VOICE_USED @"OUTPUT_VOICE_USED"
+// 	 分享facebook
+#define SHARE_VIA_FB @"SHARE_VIA_FB"
+// 	 分享到更多
+#define SHARE_VIA_OTHERS @"SHARE_VIA_OTHERS"
+//	 微信分享
+#define SHARE_VIA_WEIXIN @"SHARE_VIA_WEIXIN"
+//	 优酷分享
+#define SHARE_VIA_YOUKU @"SHARE_VIA_YOUKU"
+//	 分享youtube
+#define SHARE_VIA_YOUTUBE @"SHARE_VIA_YOUTUBE"
+// 	 推荐好友
+#define TELL_A_FRIEND @"TELL_A_FRIEND"
+//	 统计未捕获异常信息
+#define UNEXCEPTIONMANAGER @"UNEXCEPTIONMANAGER"
+//	 视频_图片绝对路径长度小于50
+#define VIDEOIMAGE_BELOW_50 @"VIDEOIMAGE_BELOW_50"
+//	 视频、图片绝对路径长度(100~200)
+#define VIDEOIMAGE_BETWEEN_100_200 @"VIDEOIMAGE_BETWEEN_100_200"
+//	 视频、图片绝对路径长度(200~256)
+#define VIDEOIMAGE_BETWEEN_200_256 @"VIDEOIMAGE_BETWEEN_200_256"
+//	 视频、图片绝对路径长度(50~100)
+#define VIDEOIMAGE_BETWEEN_50_100 @"VIDEOIMAGE_BETWEEN_50_100"
+//	 视频、图片绝对路径长度大于256
+#define VIDEOIMAGE_BEYOND_256 @"VIDEOIMAGE_BEYOND_256"
+//	 最近视频播放次数（包括成功及失败)
+#define VIDEO_PLAY_CNT_RECENT @"VIDEO_PLAY_CNT_RECENT"
+//	 推荐视频播放次数（包括成功及失败）
+#define VIDEO_PLAY_CNT_RECOMMEND @"VIDEO_PLAY_CNT_RECOMMEND"
+//	 最近视频播放失败
+#define VIDEO_PLAY_ERR_CNT_RECENT @"VIDEO_PLAY_ERR_CNT_RECENT"
+//	 推荐视频播放失败
+#define VIDEO_PLAY_ERR_CNT_RECOMMEND @"VIDEO_PLAY_ERR_CNT_RECOMMEND"
+
+
+
+
+#endif

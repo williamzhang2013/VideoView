@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0800F84D-D43C-49FF-A318-EEABC3407101</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VideoShow</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>64887fa8-d766-4751-987b-10ab37d4e16b</key>
+		<string>http://liangyin.chen@192.168.1.233/svn/yzww</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VideoShow/VideoShow.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>64887fa8-d766-4751-987b-10ab37d4e16b</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>64887fa8-d766-4751-987b-10ab37d4e16b</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>64887fa8-d766-4751-987b-10ab37d4e16b</string>
+			<key>IDESourceControlWCCName</key>
+			<string>yzww</string>
+		</dict>
+	</array>
+</dict>
+</plist>

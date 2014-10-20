@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ImageName</key>
+		<string>font_default.png</string>
+		<key>FontName</key>
+		<string>default</string>
+	</dict>
+	<dict>
+		<key>ImageName</key>
+		<string>font_birth_of_a_hero.png</string>
+		<key>FontName</key>
+		<string>BIRTH OF A HERO</string>
+	</dict>
+	<dict>
+		<key>ImageName</key>
+		<string>font_cyrillic_font_lobster.png</string>
+		<key>FontName</key>
+		<string>Lobster 1.4</string>
+	</dict>
+	<dict>
+		<key>ImageName</key>
+		<string>font_didot.png</string>
+		<key>FontName</key>
+		<string>Didot</string>
+	</dict>
+	<dict>
+		<key>ImageName</key>
+		<string>font_futura_medium_bt.png</string>
+		<key>FontName</key>
+		<string>Futura Md BT</string>
+	</dict>
+	<dict>
+		<key>ImageName</key>
+		<string>font_helvetica_neue_lt_pro_bd.png</string>
+		<key>FontName</key>
+		<string>Helvetica Neue LT Pro</string>
+	</dict>
+	<dict>
+		<key>ImageName</key>
+		<string>font_impact.png</string>
+		<key>FontName</key>
+		<string>IMPACT</string>
+	</dict>
+	<dict>
+		<key>ImageName</key>
+		<string>font_pointy.png</string>
+		<key>FontName</key>
+		<string>pointy</string>
+	</dict>
+	<dict>
+		<key>ImageName</key>
+		<string>font_sketchetik.png</string>
+		<key>FontName</key>
+		<string>Sketchetik</string>
+	</dict>
+	<dict>
+		<key>ImageName</key>
+		<string>font_un_finished.png</string>
+		<key>FontName</key>
+		<string>Un-finished</string>
+	</dict>
+</array>
+</plist>

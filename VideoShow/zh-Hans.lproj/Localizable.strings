@@ -1,0 +1,84 @@
+/* 
+  Localizable.strings
+  VideoShow
+
+  Created by Jerry Chen  on 14-7-16.
+  Copyright (c) 2014年 energy. All rights reserved.
+*/
+"Home" = "主页";
+"Featured" = "推荐";
+"Recent" = "最新";
+"Advanced Edit" = "视频编辑";
+"The Video" = "拍摄录像";
+"Photo Video" = "音乐相册";
+"My Studio" = "我的工作室";
+"Close" = "关闭";
+"My Draft" = "草稿箱";
+"My Video" = "我的视频";
+"Drop to Refresh" = "下拉刷新";
+"Loading" = "加载中 ...";
+"Camera not available" = "摄像头不可用 !";
+"OK" = "好的";
+"Confirm" = "确认";
+"Cancel" = "取消";
+"Select Clip" = "选择片段";
+"Back" = "返回";
+"Next" = "下一步";
+"Total" = "共";
+"Done" = "完成";
+"Video Edit" = "视频编辑";
+"Processing" = "处理中 ...";
+"Photo Duration" = "照片时长";
+"Duration"  = "时长";
+"Video Clip"  = "裁剪";
+"Recording" = "录音";
+"Add Music" = "配乐";
+"Add music failed" = "添加音乐失败 !";
+"Setting Music" = "设置音乐";
+"Setting Subtitle" = "设置文本";
+"Subtitle Position" = "字幕位置";
+"Left Top" = "左上";
+"Left Bottom" = "左下";
+"Right Bottom" = "右下";
+"Right Top" = "右上";
+"Middle Top" = "中上";
+"Middle Bottom" = "中下";
+"Center" = "正中";
+"Exporting" = "正在导出";
+"Stop Export" = "停止导出";
+"Export Failed" = "导出失败";
+"Exit Video Editing" = "是否退出编辑？";
+"Save to drafts" = "保存到草稿箱";
+"Share" = "分享";
+"Share To" = "分享到";
+"Saved to My Studio" = "已经成功保存到\“我的工作室\”";
+"Draft Saving Failed" = "保存草稿失败 !";
+"Confirm to Delete" = "你确定要删除吗 ?";
+"Follow us on Instagram" = "在Instagram上关注我们";
+"Follow us on Facebook" = "在Facebook上关注我们";
+"Follow us on Twitter" = "在Twitter上关注我们";
+"Frequently asked questions" = "常见问题";
+"Setting" = "设置";
+"File Count Max" = "媒体文件数量已达到最大限制 ！";
+"Save Video Failed" = "视频保存失败！";
+"Select Element First" = "请选择素材！";
+"Upload Failed" = "上传失败 ！";
+"Upload Success" = "上传成功 ！";
+"Authorization Failure" = "授权失败！";
+"Remove YTB Authorization" = "清除YoutTube授权信息";
+"Remove Success" = "清除成功 !";
+"Set Facebook Account in Setting" = "授权失败，请在系统设置里面重新设置您的Facebook账号！";
+"Please install Instagram first" = "请先安装Instagram!";
+"like_loading" = "请稍后...";
+"no install instagram" = "您没有安装instagram,是否现在安装?";
+"Tips" = "提示";
+"Load Failed" = "加载失败!";
+"No Music" = "无音乐";
+"iTunes Download" = "您可以从iTunes Store下载音乐";
+"Stop Export Hint" = "再点击一次停止导出";
+"Touch Move" = "长按拖动可以调整顺序";
+"Big Like" = "万+";
+"No Artist" = "未知艺术家";
+"Auth Hint" = "正在请求授权,请稍后...";
+"Version" = "版本";
+

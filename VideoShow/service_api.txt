@@ -1,0 +1,28 @@
+
+服务器接口
+
+推荐
+http://api.videoshowapp.com:8087/api/v1/medium/featured.json?page=1
+最新
+http://api.videoshowapp.com:8087/api/v1/medium/recent.json?page=1
+首页广告
+http://api.videoshowapp.com:8090/videoshow/api/v2/config?type=homeTopAdvert&page=1&item=5
+
+1.登录
+get请求 http://api.videoshowapp.com:8087/api/v1/oauth/connect获取token参数
+
+<script>  
+$(document).ready(function() {    
+t_token = $('#token').val();    login_interface.info(t_token); 
+ });
+</script>
+<h3>
+ <input id='token' type='hidden' value='1314469069.80d957c.57e5dce735fe419cb56bb376a5252c57'>
+</h3>
+
+2.点击/取消赞
+post请求 http://api.videoshowapp.com:8087/api/v1/medium/769954088629718899_1376332194/like_media
+delete请求 http://api.videoshowapp.com:8087/api/v1/medium/769954088629718899_1376332194/unlike_media
+
+POST参数带上access_token 该参数登陆获取的token   
+http://api.videoshowapp.com:8087/api/v1/medium/视频ID/like_media
